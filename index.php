@@ -15,8 +15,15 @@ use Symfony\Component\HttpFoundation\Request;
 $autoloader = require_once __DIR__ . '/core/vendor/autoload.php';
 
 echo "anup git testing";
+<<<<<<< HEAD
+echo "By Iqbal";
+=======
 echo "2nd edit by anup";
+<<<<<<< HEAD
 echo "3d edit by anup";
+=======
+>>>>>>> 71186e90e49e908c691a133b4fae149c7709b382
+>>>>>>> bed200e83fd504a5ce4dbd58441ce5a099244d68
 try {
 
   $request = Request::createFromGlobals();
